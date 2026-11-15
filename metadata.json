@@ -1,0 +1,6 @@
+{
+  "name": "Operation Red Rock — Cinematic Space Presentation",
+  "description": "Cinematic Space Editorial interactive 16:9 presentation deck with JSON content upload, inspiration image studio, RTL support, and speaker pitch timer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

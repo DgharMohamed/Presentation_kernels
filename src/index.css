@@ -1,0 +1,174 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   CINEMATIC SPACE EDITORIAL — DESIGN TOKENS (CSS VARIABLES)
+   Centralized for effortless theme adaptation across planetary subjects.
+   ========================================================================== */
+:root {
+  --color-bg-void: #000000;
+  --color-bg-deep: #0A0A0F;
+  --color-accent: #FF9F55;
+  --color-accent-glow: rgba(255, 159, 85, 0.28);
+  --color-text-primary: #FFFFFF;
+  --color-text-muted: rgba(255, 255, 255, 0.78);
+  --color-card-bg: rgba(200, 200, 200, 0.85);
+  --color-card-text: #1A1A1A;
+  --color-badge-bg: #FFFFFF;
+  --color-badge-text: #0A0A0F;
+  --color-control-bg: rgba(18, 18, 24, 0.72);
+  --color-control-border: rgba(255, 255, 255, 0.14);
+
+  --radius-card: 24px;
+  --radius-badge: 9999px;
+  --radius-control: 12px;
+
+  --slide-margin-x: clamp(1.5rem, 5.5vw, 4.75rem);
+  --slide-margin-y: clamp(1.25rem, 5vh, 3.75rem);
+
+  --font-display: 'Poppins', 'Outfit', 'Montserrat', sans-serif;
+  --font-body: 'Poppins', 'Outfit', 'Montserrat', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, monospace;
+
+  --ease-editorial: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  background-color: var(--color-bg-void);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+}
+
+/* Editorial Cards & Badges */
+.editorial-card {
+  background-color: var(--color-card-bg);
+  color: var(--color-card-text);
+  border-radius: var(--radius-card);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.editorial-badge {
+  background-color: var(--color-badge-bg);
+  color: var(--color-badge-text);
+  border-radius: var(--radius-badge);
+}
+
+.editorial-title {
+  font-family: var(--font-display);
+  color: var(--color-accent);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  line-height: 1.06;
+  text-wrap: balance;
+}
+
+.editorial-subtitle {
+  font-family: var(--font-display);
+  color: var(--color-accent);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.18;
+  text-wrap: balance;
+}
+
+.editorial-tagline {
+  font-family: var(--font-display);
+  color: var(--color-accent);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
+/* Subtle Ken Burns motion for background photography & cosmic visuals */
+@keyframes kenBurnsSlow {
+  0% {
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+  50% {
+    transform: scale(1.045) translate3d(-0.6%, -0.4%, 0);
+  }
+  100% {
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+}
+
+.ken-burns-active {
+  animation: kenBurnsSlow 32s ease-in-out infinite;
+  will-change: transform;
+}
+
+.ken-burns-paused {
+  animation: kenBurnsSlow 32s ease-in-out infinite;
+  animation-play-state: paused;
+}
+
+/* Editorial Slide Element Reveal (300-500ms ease-out) */
+@keyframes editorialReveal {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 14px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.reveal-item {
+  opacity: 0;
+  animation: editorialReveal 420ms var(--ease-editorial) forwards;
+}
+
+.reveal-delay-1 { animation-delay: 60ms; }
+.reveal-delay-2 { animation-delay: 140ms; }
+.reveal-delay-3 { animation-delay: 220ms; }
+.reveal-delay-4 { animation-delay: 300ms; }
+.reveal-delay-5 { animation-delay: 380ms; }
+
+/* Subtle documentary film grain overlay */
+.film-grain {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 0);
+  background-size: 3px 3px;
+  opacity: 0.24;
+  pointer-events: none;
+}
+
+/* Respect user reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .ken-burns-active,
+  .ken-burns-paused {
+    animation: none !important;
+    transform: none !important;
+  }
+  .reveal-item {
+    animation: none !important;
+    opacity: 1 !important;
+    transform: none !important;
+  }
+}
+
+/* Tabular figures for metrics */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom thin dark scrollbar for Studio drawer */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0f;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.18);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 159, 85, 0.55);
+}

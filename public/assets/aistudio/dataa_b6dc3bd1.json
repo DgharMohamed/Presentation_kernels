@@ -1,0 +1,154 @@
+{
+  "presentation": {
+    "title": "OPERATION RED ROCK",
+    "team": "KERNELS",
+    "event": "NASA Space Apps Challenge 2026",
+    "format": "Pitch de 3 minutes",
+    "total_duration_seconds": 200
+  },
+  "slides": [
+    {
+      "id": 1,
+      "type": "Introduction / Hook",
+      "title": "KERNELS presents — OPERATION RED ROCK",
+      "sub-title": "Identify Earth Locations that Analog the Permanent Moon Base Locations and Mars. NASA Space Apps Challenge 2026",
+      "contenu": {
+        "message_principal": "We don't just describe planetary analogs. We make them explorable.",
+        "note_speaker": "Présenter rapidement l'équipe et le challenge. Introduire l'idée centrale : notre projet transforme l'étude des analogues planétaires en une expérience interactive. Ne pas dépasser 15 secondes.",
+        "layout": "Full-screen cinematic cover : grande image en arrière-plan, titre au centre, logo et nom du challenge en bas.",
+        "duree_secondes": 15
+      },
+      "visual-idea": "Image NASA du cratère Gale fusionnant avec une photographie du désert d'Atacama. Logo KERNELS au centre ou dans un coin. Transition visuelle Terre → Mars.",
+      "bullet-points": [
+        "Team KERNELS",
+        "Explore Earth locations that resemble Mars and the Moon.",
+        "Our approach: Learn → Test → Drive."
+      ]
+    },
+    {
+      "id": 2,
+      "type": "Problem Statement",
+      "title": "Learning space science is abstract. Missions are real.",
+      "sub-title": "Real planetary analogs exist, but they remain difficult to experience.",
+      "contenu": {
+        "message_principal": "The best Mars analog on Earth is useless if it remains a line in a PDF.",
+        "note_speaker": "Expliquer que les sites analogues existent déjà sur Terre, mais que les apprenants les découvrent principalement à travers des documents scientifiques. Donner l'exemple d'un analogue terrestre difficile à comprendre sans visualisation, puis introduire notre solution.",
+        "layout": "Split-screen horizontal ou vertical : problème à gauche, expérience interactive à droite. Une phrase forte au centre ou en bas pour souligner le décalage entre savoir et expérience.",
+        "duree_secondes": 30
+      },
+      "visual-idea": "À gauche : document scientifique ou rapport PDF. À droite : apprenant utilisant un simulateur de rover 3D. Icônes représentant les quatre difficultés : information, distance, passivité et manque d'expérience.",
+      "bullet-points": [
+        "Abstraction: Scientific information is difficult to visualize.",
+        "Distance: Students cannot physically explore Mars or the Moon.",
+        "Passive learning: Traditional learning offers little interaction.",
+        "The gap: Learning about exploration is not the same as experiencing it."
+      ]
+    },
+    {
+      "id": 3,
+      "type": "Solution Overview",
+      "title": "One web app. Three ways to master planetary analogs.",
+      "sub-title": "From discovery to knowledge validation and practical experience.",
+      "contenu": {
+        "message_principal": "One platform to understand, test, and experience planetary exploration.",
+        "note_speaker": "Présenter les trois fonctionnalités comme un parcours d'apprentissage : découvrir les analogues, vérifier sa compréhension, puis appliquer ses connaissances dans une simulation. Garder les détails pour les slides suivantes.",
+        "layout": "Trois colonnes de même taille, chacune avec une capture d'écran, un titre court et une phrase descriptive. Ajouter une flèche circulaire ou une ligne de progression en bas.",
+        "duree_secondes": 25
+      },
+      "visual-idea": "Trois captures d'écran réelles de l'application : 1. Explorer — carte interactive. 2. Challenge — interface de quiz. 3. Rover Mission — simulateur 3D. Flèches reliant les trois piliers pour illustrer la progression pédagogique. Logos des sources : NASA Mars Trek, HiRISE, REMS et USGS.",
+      "bullet-points": [
+        "EXPLORE: Interactive Earth ↔ Mars ↔ Moon analog map.",
+        "CHALLENGE: Interactive quizzes to test scientific knowledge.",
+        "ROVER MISSION: 3D rover simulator on real NASA terrain data.",
+        "WEB-BASED: Accessible directly from the browser, no installation."
+      ]
+    },
+    {
+      "id": 4,
+      "type": "Product Demonstration — Explorer",
+      "title": "From your browser: walk the analogs of Mars — on Earth.",
+      "sub-title": "Discover and compare real locations across Earth and Mars.",
+      "contenu": {
+        "message_principal": "See Mauna Loa. Understand Olympus Mons. Make planetary science visual.",
+        "note_speaker": "Faire une seule démonstration : Olympus Mons et Mauna Loa. Montrer comment l'utilisateur passe d'une localisation terrestre à sa comparaison martienne. Insister sur les données scientifiques et leurs sources. Citer les catalogues NASA concernés, notamment PIA12461 et ISS015-E-7852.",
+        "layout": "Grand screenshot de l'atlas occupant environ 70 % de la slide. À droite, une petite zone de comparaison avec les deux noms, les métriques et le chiffre 22 km vs 4.2 km.",
+        "duree_secondes": 30
+      },
+      "visual-idea": "Capture d'écran réelle de la page ComparisonPage. Carte Terre/Mars synchronisée. Exemple principal : Olympus Mons ↔ Mauna Loa. Encadré comparatif : 22 km vs 4.2 km.",
+      "bullet-points": [
+        "Interactive satellite map connecting Earth and planetary locations.",
+        "Scientific comparisons: height, geology and climate.",
+        "Educational profiles with images, metrics and explanations.",
+        "Data sources: NASA Mars Trek, PDS, Photojournal and USGS EarthExplorer."
+      ]
+    },
+    {
+      "id": 5,
+      "type": "Product Demonstration — Interactive Learning",
+      "title": "Knowledge is only real when it is tested.",
+      "sub-title": "Turn scientific knowledge into interactive learning challenges.",
+      "contenu": {
+        "message_principal": "Every question is a mini-mission. Every wrong answer becomes a lesson.",
+        "note_speaker": "Expliquer que l'apprenant ne fait pas que lire des informations : il doit répondre, réfléchir et recevoir une explication immédiate. Mettre en avant trois notions pédagogiques : active learning, formative assessment et spaced practice.",
+        "layout": "Deux colonnes : à gauche, interface de quiz avec les réponses possibles ; à droite, feedback scientifique et progression de l'apprenant. Garder une question centrale bien lisible.",
+        "duree_secondes": 25
+      },
+      "visual-idea": "Mockup d'une question : \"−60 °C average temperature, less than 10 mm of rainfall per year: Which Earth site is the analog?\" Quatre réponses possibles avec les noms ou images des sites. Barre de progression inspirée d'un HUD de mission spatiale.",
+      "bullet-points": [
+        "Interactive quizzes to identify the correct planetary analog.",
+        "Immediate feedback with scientific explanations.",
+        "Questions based on peer-reviewed scientific literature.",
+        "Measurable progress through scores and concept mastery."
+      ]
+    },
+    {
+      "id": 6,
+      "type": "Product Demonstration — 3D Simulation",
+      "title": "Don't just learn about Mars. Drive it.",
+      "sub-title": "Experience rover navigation through a 3D simulation powered by NASA terrain data.",
+      "contenu": {
+        "message_principal": "Mars gravity is not just a number to memorize. It's an experience to explore.",
+        "note_speaker": "C'est le moment fort de la présentation. Montrer directement le simulateur et expliquer brièvement la différence entre le pilotage sur Terre et sur Mars. Faire une démonstration live de 20 secondes ou diffuser une vidéo de gameplay préparée. Tester la démonstration avant le pitch.",
+        "layout": "Grand visuel du simulateur occupant presque toute la slide. Ajouter un petit encadré de télémétrie et une comparaison Terre/Mars en bas ou sur le côté. Limiter le texte pour laisser la simulation parler.",
+        "duree_secondes": 40
+      },
+      "visual-idea": "Capture d'écran plein écran du rover sur le terrain martien. HUD visible avec les données de télémétrie. Petit encadré montrant le passage de la gravité terrestre à la gravité martienne. Mention : \"Built on NASA open data\".",
+      "bullet-points": [
+        "3D WebGL rover simulator built with Three.js.",
+        "NASA Gale Crater terrain data (MOLA/HiRISE DEM).",
+        "Earth-to-Mars training: 9.81 m/s² → 3.72 m/s².",
+        "Real-time telemetry: speed, traction, suspension, battery and slope.",
+        "Missions include cargo transport and geological sample collection."
+      ]
+    },
+    {
+      "id": 7,
+      "type": "Impact / Conclusion / Call to Action",
+      "title": "From classrooms to mission control.",
+      "sub-title": "Preparing the next generation of planetary explorers.",
+      "contenu": {
+        "message_principal": "The next generation of explorers is trained today, on Earth.",
+        "roadmap": [
+          "More analog sites",
+          "Multiplayer mode",
+          "LMS integration (SCORM/xAPI)"
+        ],
+        "call_to_action": [
+          "Try the demo.",
+          "Explore the platform for your organization.",
+          "Vote for KERNELS and visit our booth."
+        ],
+        "note_speaker": "Terminer en rappelant que KERNELS transforme les données scientifiques en une expérience éducative interactive. Présenter rapidement les publics bénéficiaires, puis inviter le jury à tester la plateforme, voter pour KERNELS et découvrir la démonstration au stand. Garder le QR code affiché pendant la conclusion.",
+        "layout": "À gauche : les quatre catégories d'impact sous forme de blocs courts. À droite : grande image martienne avec QR code et URL. Terminer avec une phrase forte et le logo KERNELS.",
+        "duree_secondes": 35
+      },
+      "visual-idea": "Grand QR code menant directement à l'application. URL de la plateforme visible. Image finale : silhouette d'un enfant pilotant un rover face à un paysage martien. Crédits NASA discrets en bas.",
+      "bullet-points": [
+        "Students & Public: Make planetary science visual and interactive.",
+        "Educators & LxD: Support active learning in STEM education.",
+        "Space organizations: Explore new approaches to rover-operator training.",
+        "Open by design: Open NASA/USGS data, Apache-2.0 license and extensible content."
+      ]
+    }
+  ]
+}
